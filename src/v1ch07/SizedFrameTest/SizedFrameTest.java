@@ -6,7 +6,7 @@ import java.awt.*;
 public class SizedFrameTest {
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
-			public void run() {
+			@Override public void run() {
 				SizeFram frame = new SizeFram();
 				frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 				frame.setVisible(true);
